@@ -1,0 +1,264 @@
+/*优逸客*/
+.you{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078E6;
+	position: fixed;
+	top: 0rem;
+	font-size: 0rem;
+	color: white;
+}
+.you ul:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.you ul{
+	height: 100%;
+}
+.you ul li{
+	width: 20%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	line-height: 0.92rem;
+	box-sizing: border-box;	
+}
+.you ul li:nth-child(3){
+	border-bottom: 0.05rem solid white;
+}
+.you ul li span{
+	font-size: 0.28rem;
+	color: white;
+}
+
+/*banner*/
+.banner{
+	width: 100%;
+	height: 2.8rem;
+	background: url(../img/banner.png)no-repeat;
+	background-size: cover;
+	line-height: 2.8rem;
+	text-align: center;
+	font-weight: bolder;
+	margin-top: 0.92rem;
+}
+.banner span{ 
+	font-size: 0.30rem;
+	color: white;
+	display: inline-block;
+}
+.banner em{ 
+	font-size: 0.30rem;
+	font-style: normal;
+	color: #EF8B00;
+}
+.banner i{ 
+	font-size: 0.30rem;
+	font-style: normal;
+	color: #00B5F7;
+}
+
+/*简介*/
+.peo{
+	width: 100%;
+	height: auto;
+	background:#F5F6FA;
+	box-sizing: border-box;
+	padding-bottom: 0.01rem;
+}
+.peo:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.peo .texts{
+	font-size: 0.22rem;
+	padding: 0.23rem 0.32rem;
+}
+.peo .jian{
+	width: 95%;
+	height: 1.86rem;
+	margin: auto;
+	box-sizing: border-box;
+	padding: 0.22rem;
+	background: white;
+	margin-bottom: 0.1rem;
+}
+.peo .jian .pic{
+	width: 26.7%;
+	height: 1.45rem;
+	float: left;
+}
+.peo .jian .pic img{
+	width: 1.78rem;
+	height: auto;
+}
+.peo .jian .right{
+	width: 60%;
+	height: 1.45rem;
+	float: left;
+	margin-left: 0.3rem;
+}
+.peo .jian .right ul{
+	line-height: 0.45rem;
+}
+.peo .jian .right ul li:nth-child(1) i{
+	font-size: 0.26rem;
+	color: #111111;
+	display: inline-block;
+	font-style: normal;
+}
+.peo .jian .right ul li:nth-child(1) em{
+	font-size: 0.14rem;
+	color: #444444;
+	font-style: normal;
+	display: inline-block;
+}
+.peo .jian .right ul li:nth-child(1) span{
+	width: 1.10rem;
+	height: 0.01rem;
+	display: block;
+	box-sizing: border-box;
+	border: 0.01rem dotted #818181;
+}
+.peo .jian .right ul li:nth-child(2) i{
+	font-size: 0.26rem;
+	color: #94D43B;
+	display: inline-block;
+	font-style: normal;
+}
+.peo .jian .right ul li:nth-child(2) span{
+	font-size: 0.22rem;
+	color: #94D43B;
+}
+.peo .jian .right ul li:nth-child(3) span{
+	font-size: 0.24rem;
+	color: #444444;
+}
+
+.bot{
+	width: 100%;
+	box-sizing: border-box;
+	/*float: left;*/
+	padding: 0.18rem 0.24rem;
+}
+.bot:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.bot ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.bot ul{
+	width: 100%;
+	height: 100%;
+	/*background: purple;*/
+}
+.bot ul li{
+	width: 1.51rem;
+	height: 0.51rem;
+	border-radius: 0.4rem;
+	background: #01B5FF;
+	float: right;
+	box-sizing: border-box;
+	padding: 0.08rem;
+	float: left;
+	display: inline-block;
+	margin-right: 0.36rem;
+	padding: 0.1rem;
+	box-sizing: border-box;
+}
+.bot ul li .box{
+	width: 0.34rem;
+	height: 0.34rem;
+	border-radius: 50%;
+	box-sizing: border-box;
+	border: 0.01rem solid white;
+	text-align: center;
+	line-height: 0.35rem;
+	font-size: 0.18rem;
+	float: left;
+}
+.bot ul li .right{
+	text-align: center;
+	line-height: 0.35rem;
+	font-size: 0.25rem;
+	color: white;
+	float:center;
+}
+.bot ul li .boxs{
+	float: right;
+}
+.bot ul li:nth-child(3){
+	text-align: center;
+	line-height: 0.35rem;
+	font-size: 0.25rem;
+	border: 0.01rem solid #666666;
+	background: white;
+}
+.bot ul li:nth-child(3) a{
+	color: #666666;
+}
+.bot ul li:nth-child(4) .right{
+	text-align: center;
+	line-height: 0.35rem;
+	font-size: 0.25rem;
+	color: white;
+	float:center;
+}
+.bot ul li:nth-child(1){
+	width: 0.51rem;
+	height: 0.51rem;
+	border-radius: 50%;
+	background: #01B5FF;
+	padding: 0.08rem;
+}
+.bot ul li:nth-child(1) .box{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background: #01B5FF;
+	border: 0.01rem solid white;
+	text-align: center;
+	line-height: 0.37rem;
+	font-size: 0.18rem;
+	
+}
+
+.bot ul li:nth-child(5){
+	width: 0.51rem;
+	height: 0.51rem;
+	border-radius: 50%;
+	background: #01B5FF;
+	margin-right: 0rem;
+	padding: 0.08rem;
+}
+.bot ul li:nth-child(5) .box{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background: #01B5FF;
+	border: 0.01rem solid white;
+	text-align: center;
+	line-height: 0.37rem;
+	font-size: 0.18rem;
+}
+.bot ul li a{
+	color: white;
+}
+
+.nav{
+	width: 100%;
+	height: auto;
+	background: #F5F6FA;
+	text-align: center;
+	font-size: 0.20rem;
+	color: #666666;
+	box-sizing: border-box;
+	padding: 0.2rem;
+	line-height: 0.36rem;
+}

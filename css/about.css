@@ -1,0 +1,255 @@
+/*优逸客*/
+.you{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078E6;
+	position: fixed;
+	top: 0rem;
+	font-size: 0rem;
+	color: white;
+}
+.you ul:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.you ul{
+	height: 100%;
+}
+.you ul li{
+	width: 20%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	line-height: 0.92rem;
+	box-sizing: border-box;	
+}
+.you ul li:nth-child(4){
+	border-bottom: 0.05rem solid white;
+}
+.you ul li span{
+	font-size: 0.28rem;
+	color: white;
+}
+/*banner*/
+.banner{
+	width: 100%;
+	height: 2.8rem;
+	background: url(../img/banner.png)no-repeat;
+	background-size: cover;
+	line-height: 2.8rem;
+	text-align: center;
+	font-weight: bolder;
+	margin-top: 0.92rem;
+}
+.banner span{ 
+	font-size: 0.30rem;
+	color: white;
+	display: inline-block;
+}
+.banner em{ 
+	font-size: 30px;
+	font-style: normal;
+	color: #EF8B00;
+}
+.banner i{ 
+	font-size: 0.30rem;
+	font-style: normal;
+	color: #00B5F7;
+}
+
+/*简介*/
+.peo{
+	width: 100%;
+	height: auto;
+	background:#F5F6FA;
+	/*background: yellowgreen;*/
+	box-sizing: border-box;
+	padding-bottom: 0.01rem;
+}
+.peo:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.peo .texts{
+	font-size: 0.22rem;
+	padding: 0.23rem 0.32rem;
+}
+.peo .jian{
+	width: 95%;
+	margin: auto;
+	box-sizing: border-box;
+	padding: 0.19rem 0.19rem;
+	background: white;
+	margin-bottom: 0.1rem;
+}
+.peo .jian:after{
+	display: block;
+	clear: both;
+	content: "";
+}
+.peo .jian .pic{
+	width: 0.75%;
+	height: 0.22rem;
+	background: #01B5FF;
+	float: left;
+	margin-top: 0.05rem;
+	margin-right: 0.2rem;
+}
+.peo .jian .right{
+	width: 96%;
+	background: white;
+	float: right;
+}
+.peo .jian .right .top2{
+	width: 100%;
+	/*background: blue;*/
+	font-size: 0.24rem;
+	padding-bottom: 0.15rem;
+	box-sizing: border-box;
+	border-bottom: 1px dashed #999999;
+	font-weight: bolder;
+	color: #444444;
+}
+.peo .jian .right .bottom{
+	width: 100%;
+	font-size: 0.24rem;
+}
+.peo .jian .right .bottom p{
+	color: #666666;
+	padding: 0.1rem 0rem 0.4rem;
+}
+
+
+.peo .qiye{
+	width: 95%;
+	margin: auto;
+	box-sizing: border-box;
+	padding: 0.19rem 0.19rem;
+	background: white;
+	margin-bottom: 0.1rem;
+}
+.peo .qiye:after{
+	display: block;
+	clear: both;
+	content: "";
+}
+.peo .qiye .pic{
+	width: 0.75%;
+	height: 0.22rem;
+	background: #01B5FF;
+	float: left;
+	margin-top: 0.05rem;
+	margin-right: 0.2rem;
+}
+.peo .qiye .right{
+	width: 96%;
+	background: white;
+	float: right;
+}
+.peo .qiye .right .top2{
+	width: 100%;
+	/*background: blue;*/
+	font-size: 0.24rem;
+	padding-bottom: 0.15rem;
+	box-sizing: border-box;
+	font-weight: bolder;
+	color: #444444;
+	border-bottom: 1px dashed #999999;
+}
+.peo .qiye .right .bottom  img{
+	width: 1.4rem;
+	height: auto;
+}
+.peo .qiye .right .bottom{
+	width: 100%;
+	font-size: 0.24rem;
+	text-align: justify;
+	box-sizing: border-box;
+}
+.peo .qiye .right .bottom ul{
+	width: 100%;
+	padding: 0.36rem 0.36rem 0.05rem 0.36rem;
+	box-sizing: border-box;
+}
+.peo .qiye .right .bottom ul:after{
+	content: "";
+	width: 100%;
+	display: inline-block;
+}
+.peo .qiye .right .bottom ul li{
+	display: inline-block;
+}
+.peo .qiye .right .bottom ul li img{
+	display: block;
+}
+
+.peo .linian{
+	width: 95%;
+	margin: auto;
+	box-sizing: border-box;
+	padding: 0.19rem 0.19rem;
+	background: white;
+	margin-bottom: 0.1rem;
+}
+.peo .linian:after{
+	display: block;
+	clear: both;
+	content: "";
+}
+.peo .linian .pic{
+	width: 0.75%;
+	height: 0.22rem;
+	background: #01B5FF;
+	float: left;
+	margin-top: 0.05rem;
+	margin-right: 0.2rem;
+}
+.peo .linian .right{
+	width: 96%;
+	background: white;
+	float: right;
+}
+.peo .linian .right .top2{
+	width: 100%;
+	/*background: blue;*/
+	font-size: 0.24rem;
+	padding-bottom: 0.15rem;
+	box-sizing: border-box;
+	font-weight: bolder;
+	color: #444444;	
+	border-bottom: 1px dashed #999999;
+}
+.peo .linian .right .bottom{
+	width: 100%;
+	font-size: 0.24rem;
+}
+.peo .linian .right .bottom p{
+	color: #666666;
+	font-size: 0.24rem;
+	padding: 0.10rem;
+}
+
+
+
+
+.nav{
+	width: 100%;
+	height: auto;
+	background: #F5F6FA;
+	text-align: center;
+	font-size: 0.20rem;
+	color: #666666;
+	box-sizing: border-box;
+	padding: 0.2rem;
+	line-height: 0.36rem;
+}
+.nav img{
+	width: 1.7rem;
+	height: auto;
+	display: block;
+	margin: auto;
+	margin-bottom: 0.23rem;
+}
+

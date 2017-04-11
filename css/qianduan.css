@@ -1,0 +1,420 @@
+
+/*优逸客*/
+.you{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078E6;
+	position: fixed;
+	z-index: 2;
+	top: 0rem;
+	font-size: 0rem;
+	color: white;
+}
+.you ul:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.you ul li:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.you ul{
+	/*background: red;*/
+	height: 100%;
+}
+.you ul li{
+	width: 20%;
+	float: left;
+	text-align: center;
+	line-height: 0.92rem;	
+}
+.you ul li span{
+	font-size: 0.28rem;
+	color: white;
+	display: block;
+}
+
+/*banner*/
+.banner{
+	width: 100%;
+	height: 2.8rem;
+	background: url(../img/banner.png)no-repeat;
+	background-size: cover;
+	line-height: 2.8rem;
+	text-align: center;
+	font-weight: bolder;
+	margin-top: 0.92rem;
+}
+.banner span{ 
+	font-size: 0.3rem;
+	color: white;
+	display: inline-block;
+}
+.banner em{ 
+	font-size: 0.3rem;
+	font-style: normal;
+	color: #EF8B00;
+}
+.banner i{ 
+	font-size: 0.3rem;
+	font-style: normal;
+	color: #00B5F7;
+}
+
+
+/*简介*/
+.peo{
+	width: 100%;
+	height: auto;
+	background:#F5F6FA;
+	/*background: yellowgreen;*/
+	box-sizing: border-box;
+	padding-bottom: 0.01rem;
+}
+.peo:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.peo .texts{
+	width: 100%;
+	font-size: 0.22rem;
+	box-sizing: border-box;
+	padding: 0.23rem 0.32rem;
+}
+.peo .jian{
+	width: 95%;
+	margin: auto;
+	box-sizing: border-box;
+	padding: 0.19rem 0.19rem;
+	background: white;
+	margin-bottom: 0.1rem;
+}
+.peo .jian:after{
+	display: block;
+	clear: both;
+	content: "";
+}
+.peo ul{
+	width: 100%;
+	/*background: yellowgreen;*/
+}
+.peo .jian ul:after{
+	display: block;
+	clear: both;
+	content: "";
+}
+.peo ul li{
+	width:25%;
+	/*background: pink;*/
+	float: left;
+	text-align: center;
+	font-size: 0.24rem;
+	margin-bottom: 0.1rem;
+	margin-top: 0.1rem;
+}
+.peo ul li img{
+	width:1.26rem;
+	height: auto;
+}
+
+.peo .jian .pic{
+	width: 0.75%;
+	height: 0.22rem;
+	background: #01B5FF;
+	float: left;
+	margin-top: 0.05rem;
+	margin-right: 0.2rem;
+}
+.peo .jian .right{
+	width: 96%;
+	background: white;
+	float: right;
+}
+.peo .jian .right .top2{
+	width: 100%;
+	/*background: blue;*/
+	font-size: 0.24rem;
+	padding-bottom: 0.15rem;
+	box-sizing: border-box;
+	border-bottom: 1px dashed #999999;
+	font-weight: bolder;
+	color: #444444;
+}
+.peo .jian .right p{
+	width: 100%;
+	font-size: 0.24rem;
+	line-height: 0.35rem;
+	color: #666666;
+}
+.peo .jian .right em{
+	font-size: 0.24rem;
+	color: #26BAFF;
+	font-weight: bolder;
+	font-style: normal;
+}
+.peo .jian .right .below{
+	width: 6.4rem;
+	height: 4.75rem;
+	/*background: blue;*/
+	text-align: center;
+	font-size: 0.26rem;
+	box-sizing: border-box;
+}
+.peo .jian .right .below img{
+	width: 6.4rem;
+	height: auto;
+}
+.peo .jian .right .below{
+	width: 6.4rem;
+	height: 4.75rem;
+	/*background: blue;*/
+	text-align: center;
+	font-size: 0.26rem;
+	box-sizing: border-box;
+}
+.peo .jian .right .belows{
+	width: 100%;
+	/*background: red;*/
+	box-sizing: border-box;	
+	margin-top: 0.1rem;
+}
+.peo .jian .right .belows ul:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.peo .jian .right .belows ul li{
+	width: 100%;
+}
+.peo .jian .right .belows ul li .lefts{
+	width: 0.6rem;
+	/*background: yellowgreen;*/
+	float: left;
+	margin-right: 0.18rem;
+}
+.peo .jian .right .belows ul li img{
+	width: 0.58rem;
+	height: auto;
+	display: block;
+}
+.peo .jian .right .belows ul li .rights{
+	width: 4rem;
+	/*background: yellow;*/
+	text-align: left;
+	float: left;
+	/*margin-left:0.8rem;*/
+}
+.peo .jian .right .belows ul li .rights span{
+	color: #01b5ff;
+}
+.peo .jian .right .belows ul li .rights em{
+	color: #3e3a39;
+	font-style: normal;
+}
+.peo .jian .right .below2{
+	width: 100%;
+	/*background: red;*/
+	box-sizing: border-box;
+	margin-top: 0.1rem;
+}
+.peo .jian .right .below2 ul{
+	width: 100%;
+	/*background: purple;*/
+}
+.peo .jian .right .below2 ul li{
+	width: 100%;
+	height: 0.6rem;
+	/*background: pink;*/
+	line-height: 0.6rem;
+	box-sizing: border-box;
+	margin: 0rem;
+	border-left: 0.02rem dashed #01B5FF;
+}
+.peo .jian .right .below2 ul li:nth-child(1){
+	border: 0rem;
+}
+.peo .jian .right .below2 ul li i,span{
+	color: #666666;
+	font-style: normal;
+}
+.peo .jian .right .below2 ul li em{
+	color: #ffa201;
+	font-style: normal;
+}
+.peo .jian .right .below2 ul li:nth-child(1){
+	text-align: left;
+
+}
+.peo .jian .right .below2 ul li:nth-child(1) em{
+	color: #000000;
+	font-weight: 500;
+	margin-left: 0.1rem;
+}
+.peo .jian .right .below2 ul li:nth-child(1) em:nth-child(2){
+	margin-left: 0.9rem;
+}
+.peo .jian .right .below2 ul li:nth-child(1) em:nth-child(3){
+	margin-left:1.9rem;
+}
+.peo .jian .right .below2 ul li:nth-child(2) em{
+	margin-left: 0.1rem;
+}
+.peo .jian .right .below2 ul li:nth-child(2) span{
+	margin-left: 0.1rem;
+}
+.peo .jian .right .below2 ul li:nth-child(3) em{
+	margin-left: 0.1rem;
+}
+.peo .jian .right .below2 ul li:nth-child(3) span{
+	margin-left: 0.1rem;
+}
+.peo .jian .right .below2 ul li:nth-child(4) em{
+	margin-left: 0.1rem;
+}
+.peo .jian .right .below2 ul li:nth-child(4) span{
+	margin-left: 0.1rem;
+}
+.peo .jian .right .below2 ul li:nth-child(5) em{
+	margin-left: 0.1rem;
+}
+.peo .jian .right .below2 ul li:nth-child(5) span{
+	margin-left: 0.1rem;
+}
+.peo .jian .right .below2 ul li:nth-child(6) em{
+	margin-left: 0.1rem;
+}
+.peo .jian .right .below2 ul li:nth-child(6) span{
+	margin-left: 0.1rem;
+}
+
+.peo .jian .right1{
+	width: 100%;
+	position: relative;
+	float: left;
+}
+.peo .jian .right1 .pic{
+	float: left;
+}
+.peo .jian .right1 .top2{
+	width: 95%;
+	/*float: left;*/
+	margin-top: -0.25rem;
+	margin-left: 0.2rem;
+}
+.peo .jian .right1 .course{
+   width:100%;
+   height:4.3rem;
+   background: white;
+   /*background: red;*/
+}
+.peo .jian .right1 .course .cir{
+	width: 0.9rem;
+	height: 0.9rem;
+	text-align: center;
+	line-height: 0.9rem;
+	color: white;
+	background: #00a0e9;
+	border-radius: 50%;
+	position: absolute;
+	top:1.5rem;
+	left:1.5rem;
+}
+.peo .jian .right1 .course .c2{
+	width: 1.1rem;
+	height: 1.1rem;
+	top:0.4rem;
+	left:0.7rem;
+	line-height:1.1rem;
+}
+.peo .jian .right1 .course .c3{
+	width: 1.35rem;
+	height: 1.35rem;
+	top:1.7rem;
+	left:0.14rem;
+	line-height:1.35rem;
+}
+.peo .jian .right1 .course .c4{
+	width: 0.8rem;
+	height: 0.8rem;
+	top:3.25rem;
+	left:0.45rem;
+	line-height:0.8rem;
+}
+.peo .jian .right1 .course .c5{
+	width: 1.2rem;
+	height: 1.2rem;
+	top:2.5rem;
+	left:1.4rem;
+	line-height:1.2rem;
+}
+.peo .jian .right1 .course .c6{
+	width: 1.6rem;
+	height: 1.6rem;
+	top:0.48rem;
+	left:2.46rem;
+	line-height:1.6rem;
+}
+.peo .jian .right1 .course .c7{
+	width: 1.4rem;
+	height: 1.4rem;
+	top:2.47rem;
+	left:2.7rem;
+	line-height:0.3rem;
+	box-sizing: border-box;
+	padding-top: 0.35rem;
+}
+.peo .jian .right1 .course .c8{
+	width: 1.25rem;
+	height: 1.25rem;
+	top:1.55rem;
+	left:3.93rem;
+	line-height:1.25rem;
+}
+.peo .jian .right1 .course .c9{
+	width: 1rem;
+	height: 1rem;
+	top:0.5rem;
+	left:4.7rem;
+	line-height:1rem;
+}
+.peo .jian .right1 .course .c10{
+	width: 1.4rem;
+	height: 1.4rem;
+	top:2.8rem;
+	left:4.25rem;
+	line-height:1.4rem;
+}
+.peo .jian .right1 .course .c11{
+	width: 1.3rem;
+	height: 1.3rem;
+	top1.42rem;
+	left:5.35rem;
+	line-height:1.3rem;
+}
+.peo .jian .right1 .course .cir .a1{
+   font-size: 0.17rem;
+}
+.peo .jian .right1 .course .cir .a2{
+   font-size: 0.21rem;
+}
+.peo .jian .right1 .course .cir .a3{
+   font-size: 0.24rem;
+}
+
+
+
+
+.nav{
+	width: 100%;
+	height: auto;
+	background: #F5F6FA;
+	text-align: center;
+	font-size: 0.20rem;
+	color: #666666;
+	box-sizing: border-box;
+	padding: 0.2rem;
+	line-height: 0.36rem;
+}
